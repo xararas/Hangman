@@ -1,5 +1,3 @@
-
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -78,11 +76,6 @@ public class Hangman {
 	 * latest character that the player has input ('letter') and the target word ('target'). The method creates a new
 	 * String that contains the previous guess but updated with the new letter <em>if</em> that letter 
 	 * exists in the target.<br><br>
-	 * 
-	 * For example, if the target word is TEAPOT and the player's current guess is **AP** (i.e. they have so far
-	 * correctly guessed A and P), and they have now entered the letter T, this method will return the String
-	 * T*AP*T.
-	 * 
 	 * @param target The target word.
 	 * @param guess The player's current guess.
 	 * @param letter The new letter that the player has input.
@@ -103,11 +96,6 @@ public class Hangman {
 		
 	} 
 
-	
-/******************************************************************************
-You do not need to look at the code below this point. If you are curious, however, feel 
-free. Do not change anything below this point though or your own code might not work.
- */
 	private static String[] defaultTargets = {
 			"beatles",
 			"aadvark",
